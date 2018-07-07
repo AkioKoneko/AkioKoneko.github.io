@@ -10,7 +10,7 @@ body
 {
 	padding-top: 25px;
 	background-color: #404040;
-	background-image: url("https://natewind.github.io/pics/texture.png");
+	background-image: url("../pics/texture.png");
 	background-attachment: fixed;
 	font-family: "PT Sans", "PT Sans Local", sans-serif;
 	font-size: 16px;
@@ -24,7 +24,7 @@ page
 	background-clip: padding-box;
 	margin: 0px auto 25px auto;
 	border: 9px solid transparent;
-	border-image: url("https://natewind.github.io/pics/shadow.png") 9 repeat;
+	border-image: url("../pics/shadow.png") 9 repeat;
 	overflow: hidden;
 	padding: 64px;
 	height: 1140px;
@@ -74,11 +74,11 @@ ul { padding-left: 40px; }
 	width: 16px;
 }
 
-#phone:before    { content: url("https://natewind.github.io/pics/phone.svg");  }
-#email:before    { content: url("https://natewind.github.io/pics/gmail.svg");    }
-#github:before   { content: url("https://natewind.github.io/pics/github.svg");   }
-#telegram:before { content: url("https://natewind.github.io/pics/telegram.svg"); }
-#vk:before       { content: url("https://natewind.github.io/pics/vk.svg");       }
+#phone:before    { content: url("../pics/phone.svg");  }
+#email:before    { content: url("../pics/gmail.svg");    }
+#github:before   { content: url("../pics/github.svg");   }
+#telegram:before { content: url("../pics/telegram.svg"); }
+#vk:before       { content: url("../pics/vk.svg");       }
 
 #contacts > a > span
 {
@@ -134,7 +134,7 @@ ul { padding-left: 40px; }
 {
 	display: inline-block;
 	margin: 3px 7px 0px 0px;
-	content: url("https://natewind.github.io/pics/stepik.svg");
+	content: url("../pics/stepik.svg");
 	vertical-align: top;
 	width: 16px;
 }
@@ -152,7 +152,7 @@ ul { padding-left: 40px; }
 	border-radius: 50%;
 	background-color: #007000;
 	/*background-color: navy;*/
-	background-image: url("https://natewind.github.io/pics/print.svg");
+	background-image: url("../pics/print.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto 46%;
